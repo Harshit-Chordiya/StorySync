@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body{
   color:#222;
  }
@@ -45,4 +48,32 @@ body{
   font-size: 1.5rem;
   font-weight: 700;
 
+ }
+
+/*login register page form css */
+ form.login,form.register{
+  max-width: 30rem;
+  margin:0 auto;
+ }
+ input{
+  display: block;
+  margin-bottom: 0.3rem;
+  width: 100%;
+  padding:0.4rem 0.8rem;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+ }
+ button{
+  width: 100%;
+  display: block;
+  background-color: #555;
+  border: 0;
+  color: #fff;
+  border-radius: 5px;
+  padding:0.4rem 0;
+ }
+
+ form h1{
+  text-align: center;
  }
