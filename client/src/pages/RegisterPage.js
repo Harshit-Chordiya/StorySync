@@ -6,9 +6,9 @@ export default function RegisterPage() {
     {
         ev.preventDefault();
        await fetch('http://localhost:4000/register',{
-            method:'Post',
-            body:JSON.stringify({username,password}),
-            header:{'Content-Type':'application/json'},
+            method:'POST',
+            body: JSON.stringify({username,password}),
+            headers:{'Content-Type':'application/json'},
         })
     }
     return(
